@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+:root{
+    
+    --cor0: #B336E0;
+    --cor1: #8D3CCF;
+    --cor2: #693BB8;
+    --cor3: #5338CF;
+    --cor4: #3535C4;
+
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: var(--cor3);
+    height: 100%;
+    background-color: #b336e025;
+    background-image: linear-gradient(45deg, #b336e033, #b336e060,  #b336e070);
+    background-attachment: fixed;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    /*background-image: linear-gradient(to bottom, var(--cor1),var(--cor2),var(--cor3));
+    */
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    margin-top: 15vh;
+    border-radius: 15px;
+    padding-top: 60px;
+    box-shadow: 9px 15px 10px  rgba(0, 0, 0, 0.248);
+}
+h1{
+    font-size: 2.5em;
+    text-align: center;
+    margin-bottom: 15%;
+    text-shadow: 5px 6px 6px rgba(0, 0, 0, 0.247);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    /*border: 1px solid black;*/
+    height: 190px;
+}
+.icon{
+    width: 250px;
+    margin: 0% 0% 3.5% 0%;
+    border-radius: 10px;
+    background-color: rgba(145, 137, 137, 0.603);
+    padding: 0% 0% 0% 1.5%;
+}
+.fas{
+    color:var(--cor3);
+    padding: 1.5%;
+}
+input{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 200px;
+    height: 40px;
+    margin: 2%;
+    border: none;
+    border-radius: 10px;
+    background-color:#fafafa11;
+    color: rgb(5, 5, 5);
+    font-size: larger;
+    outline: none;
+}
+a{
+    color: var(--cor4);
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    margin: 10px 1px 10px 1px;
+
+}
+.fab{
+    margin: 1px 10px 1px 1px;
+    color: var(--cor4);
+}
+button{
+    padding: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-size: larger;
+    border-radius: 10px;
+    border: none;
+    background-image: linear-gradient(15deg, var(--cor0),var(--cor1),var(--cor2));
+    width: 250px;
+    height: 500px;
+    transition: 100s;
+    cursor: pointer;
+}
+button:hover{
+    background-image: linear-gradient(to right, var(--cor0),var(--cor1),var(--cor2));
+
+}
